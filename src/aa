@@ -1,0 +1,15 @@
+<div class="row d-flex justify-content-around">
+        <div class="col-md-5 testimonials">
+          <p>En güzeli, en önemlisi, en rahatı aç kalmadan, sinirlenmeden, yiyerek, mutlu şekilde kilo verdim.
+          </p>
+          <img src="./images/picture.png">
+          <p class="user-details"><b>Melis İ.</b><br>Kütahya</p>
+        </div>
+        <div class="col-md-5 testimonials">
+          <p>Çok teşekkür ederim size. 1 senedir kendi kendime uğraşıyordum. Ama bırakın kilo vermeyi, üstüne kilo
+            almıştım. Doğru bildiğim yanlışları fark ettim bu sayede.
+          </p>
+          <img src="./images/picture.png">
+          <p class="user-details"><b>Zübeyde C.</b><br>İstanbul</p>
+        </div>
+      </div>

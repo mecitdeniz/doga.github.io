@@ -49,7 +49,6 @@ body {
   background: #09f;
   padding-top: 5%;
   color: #fff;
-  padding-bottom: 5%;
   justify-content: center;
   align-items: center;
 }
@@ -81,7 +80,7 @@ body {
   margin-top: 25px;
   text-transform: uppercase;
 }
-.title::before {
+.title::after {
   content: "";
   background: #09f;
   height: 5px;
@@ -89,19 +88,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: block;
-  transform: translateY(63px);
-}
-
-.title::after {
-  content: "";
-  background: #09f;
-  height: 10px;
-  width: 50px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-bottom: 40px;
-  transform: translateY(8px);
+  margin-top: 10px;
 }
 
 #services .btn-primary {
@@ -143,6 +130,7 @@ body {
   border-left: 4px solid #09f;
   padding: 20px 30px;
   margin: 50px 0px;
+  text-align: justify;
 }
 .testimonials img {
   height: 45px;
@@ -151,7 +139,8 @@ body {
 }
 .user-details {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
+  align-self: center;
 }
 
 /*-------------------------------SocialMedia Section----------------------------------------------*/
@@ -214,11 +203,42 @@ body {
   margin-top: 25px;
 }
 
-hr{
-    background-color: #fff;
+hr {
+  background-color: #fff;
 }
-.copyright{
-    margin-bottom: 0;
-    padding-bottom: 20px;
-    text-align: center;
+.copyright {
+  margin-bottom: 0;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/*-------------------------------About Page----------------------------------------------*/
+
+/*-------------------------------Bio Section----------------------------------------------*/
+
+#bio {
+  padding: 10px 0;
+}
+
+.bio-img {
+  width: 200px;
+  height: 200px;
+}
+
+.bio-title {
+  font-weight: 600;
+  font-size: 24px;
+  margin: 20px;
+}
+.bio-container {
+  margin: 50px 0px;
+  padding: 10px 5px;
+}
+.bio-p {
+  font-size: 18px;
+  line-height: 1.8;
+  text-indent: 50px;
+  letter-spacing: 2px;
+  word-spacing: 5px;
+  text-align: justify;
 }
