@@ -43,6 +43,18 @@ body {
   color: #fff;
 }
 
+.dropdown-menu {
+  background: #f8f9fa;
+}
+
+.dropdown-menu a {
+  color: #09f;
+}
+
+.dropdown-menu li :active {
+  background: #09f;
+}
+
 /*-------------------------------Hero Section----------------------------------------------*/
 
 #hero {
