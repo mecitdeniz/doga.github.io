@@ -22,10 +22,12 @@ body {
   z-index: 10;
   background: #09f;
   color: #fff;
+  padding-right: 5%;
 }
 .navbar-brand {
   color: #fff;
   font-weight: 900;
+  padding-left: 5%;
 }
 
 .navbar-nav li {
@@ -39,20 +41,54 @@ body {
   font-weight: 600;
   color: #fff;
 }
+
+
 .navbar-toggler-icon {
   color: #fff;
 }
 
+.dropdown {
+  float: left;
+}
+
 .dropdown-menu {
   background: #f8f9fa;
+  overflow: hidden;
+}
+
+.dropdown-menu li {
+  display: inline-block;
+  width: 100%;
+  text-align: left;
 }
 
 .dropdown-menu a {
   color: #09f;
+  display: inline-block;
 }
 
 .dropdown-menu li :active {
   background: #09f;
+}
+
+/*----------------------------------Breadcrumb---------------------------------------------*/
+
+.breadcrumb {
+  color: #fff;
+  margin-top: 30px;
+}
+.breadcrumb li {
+  margin: 0 5px;
+}
+.breadcrumb a {
+  color: #fff;
+}
+
+.breadcrumb a:hover {
+  color: #09f;
+  text-decoration: none;
+  background-color: #f8f9fa;
+  padding: 5px;
 }
 
 /*-------------------------------Hero Section----------------------------------------------*/
@@ -91,16 +127,6 @@ body {
   padding: 5px;
   margin-top: 25px;
   text-transform: uppercase;
-}
-.title::after {
-  content: "";
-  background: #09f;
-  height: 5px;
-  width: 200px;
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-  margin-top: 10px;
 }
 
 #services .btn-primary {
@@ -285,40 +311,39 @@ hr {
   margin: 0 0 24px;
 }
 
-
-
-.divider
-{
-	position: relative;
-	margin-top: 90px;
-	height: 1px;
+.divider {
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 1px;
 }
 
-.div-transparent:before
-{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 5%;
-	right: 5%;
-	width: 90%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+.div-transparent:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 5%;
+  right: 5%;
+  width: 90%;
+  height: 1px;
+  background-image: linear-gradient(
+    to right,
+    transparent,
+    rgb(48, 49, 51),
+    transparent
+  );
 }
 
-
-.div-dot:after
-{
-	content: "";
-	position: absolute;
-	z-index: 1;
-	top: -9px;
-	left: calc(50% - 9px);
-	width: 18px;
-	height: 18px;
-	background-color: #09f;
-	border: 1px solid rgb(48,49,51);
-	border-radius: 50%;
-	box-shadow: inset 0 0 0 2px white,
-					0 0 0 4px white;
+.div-dot:after {
+  content: "";
+  position: absolute;
+  z-index: 1;
+  top: -9px;
+  left: calc(50% - 9px);
+  width: 18px;
+  height: 18px;
+  background-color: #09f;
+  border: 1px solid rgb(48, 49, 51);
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 2px white, 0 0 0 4px white;
 }
